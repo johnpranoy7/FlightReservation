@@ -1,0 +1,25 @@
+2021-05-04 19:43:38.244  INFO 16824 --- [main] c.j.f.FlightReservationApplication       : Starting FlightReservationApplication on DESKTOP-Q1UL5D1 with PID 16824 (C:\Users\johnp\Documents\workspace-sts-3.9.8.RELEASE\FlightReservation\target\classes started by johnp in C:\Users\johnp\Documents\workspace-sts-3.9.8.RELEASE\FlightReservation)
+2021-05-04 19:43:38.339  INFO 16824 --- [main] c.j.f.FlightReservationApplication       : No active profile set, falling back to default profiles: default
+2021-05-04 19:43:41.752  INFO 16824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-04 19:43:42.016  INFO 16824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 249ms. Found 5 JPA repository interfaces.
+2021-05-04 19:43:43.852  INFO 16824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-04 19:43:43.887  INFO 16824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-04 19:43:43.888  INFO 16824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-05-04 19:43:44.886  INFO 16824 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-04 19:43:44.947  INFO 16824 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2021-05-04 19:43:44.948  INFO 16824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6295 ms
+2021-05-04 19:43:45.447  INFO 16824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-04 19:43:48.698  INFO 16824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-04 19:43:48.936  INFO 16824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-04 19:43:49.178  INFO 16824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2021-05-04 19:43:49.520  INFO 16824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-04 19:43:49.799  INFO 16824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-04 19:43:51.746  INFO 16824 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-04 19:43:51.758  INFO 16824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-04 19:43:53.192  WARN 16824 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-04 19:43:53.798  INFO 16824 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28d16af8, org.springframework.security.web.context.SecurityContextPersistenceFilter@b04a6a4, org.springframework.security.web.header.HeaderWriterFilter@472dbaf5, org.springframework.security.web.authentication.logout.LogoutFilter@2e38d44e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51c4992e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d75940, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58932d08, org.springframework.security.web.session.SessionManagementFilter@7b33deed, org.springframework.security.web.access.ExceptionTranslationFilter@e88e14, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e1c91cd]
+2021-05-04 19:43:54.068  INFO 16824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 19:43:54.187  INFO 16824 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2021-05-04 19:43:54.714  INFO 16824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2021-05-04 19:43:54.718  INFO 16824 --- [main] c.j.f.FlightReservationApplication       : Started FlightReservationApplication in 18.897 seconds (JVM running for 22.531)
+2021-05-04 21:58:18.120  WARN 16824 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h43m28s811ms226µs800ns).
